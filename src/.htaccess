@@ -8,6 +8,6 @@
     RewriteRule ^.*$ / [L,QSA]
 </IfModule>
 
-# 1. Copy this file in your website's root directory
-# 2. Edit /etc/httpd/conf/httpd.conf so that the <Directory "/var/www/html"> AllowOverride None will become AllowOverride All
+# 1. Copy this file in your website's root directory.
+# 2. Edit /etc/httpd/conf/httpd.conf so that in section <Directory "/var/www/html">, the option AllowOverride will be set from "None" to "All".
 
